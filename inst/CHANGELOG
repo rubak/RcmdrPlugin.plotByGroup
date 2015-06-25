@@ -1,0 +1,10 @@
+# RcmdrPlugin.plotByGroup CHANGELOG
+
+## 0.1-0
+
+* Initial package
+
+## 0.1-1
+
+* Minor change to man to satisfy CRAN
+* Package now on GitHub and has a README.md

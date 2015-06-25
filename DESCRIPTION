@@ -1,0 +1,11 @@
+Package: RcmdrPlugin.plotByGroup
+Type: Package
+Title: Rcmdr plots by group using lattice
+Version: 0.1-1
+Date: 2015-06-25
+Authors@R: c(
+    person("Svante", "Eriksen", email = "svante@math.aau.dk", role = "aut"),
+    person("Ege", "Rubak", email = "rubak@math.aau.dk", role = c("cre", "ctb")))
+Depends: R (>= 2.13.0), Rcmdr (>= 1.4-6),lattice,grid,grDevices
+Description: Rcmdr menu support for some of the graphics by group in the lattice package
+License: GPL (>= 2)

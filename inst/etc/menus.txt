@@ -1,0 +1,9 @@
+# R Commander Menu Definitions
+
+#   type    menu/item      operation/parent  label                                          command/menu                activation  install?
+    menu    LatticeMenu  graphsMenu      ""                                              ""                          ""            "packageAvailable('lattice')"
+    item    LatticeMenu  command         "Histogram by group..."                             HIST                   "numericP() && factorsP()" "packageAvailable('lattice')"
+    item    LatticeMenu  command         "Boxplot by group..."                             BOXWP                   "numericP() && factorsP()" "packageAvailable('lattice')"
+    item    LatticeMenu  command         "qqNormplot by group..."                             QQN                   "numericP() && factorsP()" "packageAvailable('lattice')"
+    item    graphsMenu      cascade         "Plot by group"                                      LatticeMenu              ""          "packageAvailable('lattice')"
+
